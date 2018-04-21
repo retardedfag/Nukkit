@@ -16,7 +16,7 @@ import cn.nukkit.utils.TextFormat;
  */
 public class TeleportCommand extends VanillaCommand {
     public TeleportCommand(String name) {
-        super(name, "%nukkit.command.tp.description", "%commands.tp.usage");
+        super(name, "§r§6Teleport to a location or to a player", "%commands.tp.usage");
         this.setPermission("nukkit.command.teleport");
         this.commandParameters.clear();
         this.commandParameters.put("->Player", new CommandParameter[]{
