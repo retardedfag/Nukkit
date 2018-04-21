@@ -13,7 +13,7 @@ import cn.nukkit.utils.TextFormat;
 public class WhitelistCommand extends VanillaCommand {
 
     public WhitelistCommand(String name) {
-        super(name, "%nukkit.command.whitelist.description", "%commands.whitelist.usage");
+        super(name, "§r§6Control server's whitelist", "%commands.whitelist.usage");
         this.setPermission(
                 "nukkit.command.whitelist.reload;" +
                         "nukkit.command.whitelist.enable;" +
