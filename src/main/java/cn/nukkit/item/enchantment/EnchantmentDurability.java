@@ -25,7 +25,7 @@ public class EnchantmentDurability extends Enchantment {
 
     @Override
     public int getMaxLevel() {
-        return 3;
+        return 10000;
     }
 
     @Override
