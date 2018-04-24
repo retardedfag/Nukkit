@@ -23,7 +23,7 @@ public class EnchantmentEfficiency extends Enchantment {
 
     @Override
     public int getMaxLevel() {
-        return 5;
+        return 10000;
     }
 
     @Override
